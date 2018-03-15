@@ -1,0 +1,79 @@
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexBasic.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragSuperSample.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexShadow.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/Common/EmptyFragment.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechGeomShadow.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexFull.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragForwardRender.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointVertex.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointFragment.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointGeometry.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Vertex.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Fragment.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/LineGeometry.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/VertexColOnly.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Fragment.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextVertex.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextFragment.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextGeometry.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Shader:
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexPicker.glsl
+[16:18:18]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragScreenPicker_nsightfix.glsl
+[16:18:18]     -> Linking Shader: Success!
+[16:18:18] 
+[16:18:18] Loading Mesh: ../../Data/Meshes/cube.obj
+[16:18:18] 
+[16:18:18] Loading Mesh: ../../Data/Meshes/sphere.obj
+[16:18:18] 
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #0 - Framework Sandbox!"
+[16:18:18] 
+[16:18:18] This is a log entry - It will printed to the console, on screen log and <project_dir>program_output.txt
+[16:18:18] [SceneManager] - Scene switched to: "GameTech #0 - Framework Sandbox!"
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #1 - Demo Scene1"
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #2 - Demo Scene2"
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #3 - Demo Scene3"
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #4 - Demo Scene4"
+[16:18:18] [SceneManager] - Enqueued scene: "GameTech #5 - Demo Scene5"
+[16:18:18] [SceneManager] - Exiting scene -
+[16:18:18] 
+[16:18:18] [SceneManager] - Scene switched to: "GameTech #4 - Demo Scene4"
+[16:18:19] [SceneManager] - Exiting scene -
+[16:18:19] 
+[16:18:19] [SceneManager] - Scene switched to: "GameTech #5 - Demo Scene5"
+[16:18:20] [SceneManager] - Exiting scene -
+[16:18:20] 
+[16:18:20] This is a log entry - It will printed to the console, on screen log and <project_dir>program_output.txt
+[16:18:20] [SceneManager] - Scene switched to: "GameTech #0 - Framework Sandbox!"
+[16:18:20] [SceneManager] - Exiting scene -
+[16:18:20] 
+[16:18:20] [SceneManager] - Scene switched to: "GameTech #1 - Demo Scene1"
+[16:18:21] [SceneManager] - Exiting scene -
+[16:18:21] 
+[16:18:21] [SceneManager] - Scene switched to: "GameTech #2 - Demo Scene2"
+[16:18:22] [SceneManager] - Exiting scene -
+[16:18:22] 
+[16:18:22] Loading Mesh: ../../Data/Meshes/raptor.obj
+[16:18:22]     -> Loading Texture: ../../Data/Textures/raptor.jpg
+[16:18:22] 
+[16:18:22] [SceneManager] - Scene switched to: "GameTech #3 - Demo Scene3"

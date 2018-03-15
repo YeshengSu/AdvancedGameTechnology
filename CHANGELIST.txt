@@ -1,0 +1,60 @@
+
+Welcome to the new ncltech framework!
+
+Everything we cover in the tutorials will be built on top of our previous graphics work, so nclgl is 
+still alive and kicking (Don't worry). Everything we will be covering will help build up the ncltech
+library - which is where we will handle all of a physics processing.
+
+The tutorials stucture has changed a little programatically as well, instead of being in seperate projects
+they are now all inside one large project called "GameTech Tutorials". The main reason for this change
+is due to the Scene structure, and the necessity to quickly reset scenes for physics debugging lead to
+a natural SceneManager and scenes over seperate projects/renderer's structure.
+
+If you have any questions and none of the demonstrators are around, feel free to email me at:
+Pieran Marris <p.marris@newcastle.ac.uk>
+
+Cheers,
+
+
+
+
+CHANGE LIST
+----------------
+
+1. Folder System
+	The directory system has changed a little from nclgl. Just to tidy things up, all
+	game related assets are in the "Data" folder now, and all code is located inside the 
+	"Build" folder.
+
+	Also, all external libraries (currently ENET, GLEW and SOIL) are now inside Build/ExternalLibs
+    directory. This is just to stop everything piling up in the root directory.
+
+	The tutorial solution for visual studio 2015 can be found inside the Build folder (if your not
+	already reading this in the IDE)
+		Note: All defines for TEXTUREDIR etc have been updated in nclgl to reflect the directory
+			  changes.
+
+2. nclgl
+	A couple of changes/additions have been made to nclgl. These shouldn't affect anything, and all
+	Graphics for Games tutorial code is as it was. If you want to use your own version of nclgl, a 
+	detailed changelist can be found inside the nclgl project.
+
+ 
+3. Clumsy
+	This is a useful program, which you can find in the root directory. It is good for
+	debugging network related issues by allowing you to artifically add latency and packet-loss.
+
+	The usage is fairly straightforward, for manipulating local packets just set the filter to 
+	"incoming and outgoing ipaddr=127.0.0.1" and toggle on/off any of the packet injection methods
+	you like.
+	
+	Be aware though, that for local to local packet manipulation, the packets will be injected twice
+	(once outgoing and once for incomming) so a packet loss of 20% will become a packet loss of 36%
+	etc. If you are testing networking with a seperate machine, or set the filter to just one of 
+	your projects port numbers, this wont be an issue.
+
+	Other packet debugging tools are available. Noteably; Wireshark (perhaps even a little overkill)
+	is a great packet sniffer to see exactly what you are sending/recieving from your program.
+	
+
+

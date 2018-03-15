@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms">
+      <UniqueIdentifier>{b7a2e477-b6be-43c3-a470-2b181d2fb15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FiniteStateMachine">
+      <UniqueIdentifier>{38403326-78c2-42b8-9ac8-8f73cafb3b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FiniteStateMachine">
+      <UniqueIdentifier>{8d0477f1-8bc3-4a57-94e2-db46cfbfc699}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HungryDinosaur.cpp">
+      <Filter>Source Files\FiniteStateMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MazeRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithm.h">
+      <Filter>Header Files\SearchAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDepthFirst.h">
+      <Filter>Header Files\SearchAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchBreadthFirst.h">
+      <Filter>Header Files\SearchAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAStar.h">
+      <Filter>Header Files\SearchAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_PathFollowing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Angles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HungryDinosaur.h">
+      <Filter>Header Files\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_PathFinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

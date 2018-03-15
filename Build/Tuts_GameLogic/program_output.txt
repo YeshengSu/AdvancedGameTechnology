@@ -1,0 +1,186 @@
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexBasic.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragSuperSample.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexShadow.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/Common/EmptyFragment.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechGeomShadow.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexFull.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragForwardRender.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointVertex.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointFragment.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/PointGeometry.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Vertex.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Fragment.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/LineGeometry.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/VertexColOnly.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/Fragment.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextVertex.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextFragment.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/DebugShaders/TextGeometry.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Shader:
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechVertexPicker.glsl
+[16:06:48]     -> Compiling Shader: ../../Data/Shaders/SceneRenderer/TechFragScreenPicker_nsightfix.glsl
+[16:06:48]     -> Linking Shader: Success!
+[16:06:48] 
+[16:06:48] Loading Mesh: ../../Data/Meshes/cube.obj
+[16:06:48] 
+[16:06:48] Loading Mesh: ../../Data/Meshes/sphere.obj
+[16:06:48] 
+[16:06:48] [SceneManager] - Enqueued scene: "GameLogic Example #1 - Path Following"
+[16:06:48] 
+[16:06:48] [SceneManager] - Scene switched to: "GameLogic Example #1 - Path Following"
+[16:06:48] [SceneManager] - Enqueued scene: "GameLogic Example #2 - Angle Computation"
+[16:06:48] Loading Mesh: ../../Data/Meshes/raptor.obj
+[16:06:48]     -> Loading Texture: ../../Data/Textures/raptor.jpg
+[16:06:48] 
+[16:06:48] [SceneManager] - Enqueued scene: "GameLogic Example #3 - Finite State Machine"
+[16:06:48] Loading Mesh: ../../Data/Meshes/cube.obj
+[16:06:48] 
+[16:06:48] [SceneManager] - Enqueued scene: "GameLogic Example #4 - Path Finding"
+[16:06:48] [SceneManager] - Exiting scene -
+[16:06:48] 
+[16:06:48] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:04] [SceneManager] - Exiting scene -
+[16:08:04] 
+[16:08:04] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:05] [SceneManager] - Exiting scene -
+[16:08:05] 
+[16:08:05] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:05] [SceneManager] - Exiting scene -
+[16:08:05] 
+[16:08:05] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:05] [SceneManager] - Exiting scene -
+[16:08:05] 
+[16:08:05] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:06] [SceneManager] - Exiting scene -
+[16:08:06] 
+[16:08:06] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:06] [SceneManager] - Exiting scene -
+[16:08:06] 
+[16:08:06] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:06] [SceneManager] - Exiting scene -
+[16:08:06] 
+[16:08:06] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:07] [SceneManager] - Exiting scene -
+[16:08:07] 
+[16:08:07] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:07] [SceneManager] - Exiting scene -
+[16:08:07] 
+[16:08:07] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:07] [SceneManager] - Exiting scene -
+[16:08:07] 
+[16:08:07] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:08] [SceneManager] - Exiting scene -
+[16:08:08] 
+[16:08:08] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:08] [SceneManager] - Exiting scene -
+[16:08:08] 
+[16:08:08] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:08] [SceneManager] - Exiting scene -
+[16:08:08] 
+[16:08:08] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:08] [SceneManager] - Exiting scene -
+[16:08:08] 
+[16:08:08] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:09] [SceneManager] - Exiting scene -
+[16:08:09] 
+[16:08:09] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:09] [SceneManager] - Exiting scene -
+[16:08:09] 
+[16:08:09] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:09] [SceneManager] - Exiting scene -
+[16:08:09] 
+[16:08:09] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:09] [SceneManager] - Exiting scene -
+[16:08:09] 
+[16:08:09] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:10] [SceneManager] - Exiting scene -
+[16:08:10] 
+[16:08:10] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:10] [SceneManager] - Exiting scene -
+[16:08:10] 
+[16:08:10] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:10] [SceneManager] - Exiting scene -
+[16:08:10] 
+[16:08:10] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:11] [SceneManager] - Exiting scene -
+[16:08:11] 
+[16:08:11] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:12] [SceneManager] - Exiting scene -
+[16:08:12] 
+[16:08:12] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:12] [SceneManager] - Exiting scene -
+[16:08:12] 
+[16:08:12] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:13] [SceneManager] - Exiting scene -
+[16:08:13] 
+[16:08:13] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:13] [SceneManager] - Exiting scene -
+[16:08:13] 
+[16:08:13] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:13] [SceneManager] - Exiting scene -
+[16:08:13] 
+[16:08:13] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:14] [SceneManager] - Exiting scene -
+[16:08:14] 
+[16:08:14] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:14] [SceneManager] - Exiting scene -
+[16:08:14] 
+[16:08:14] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:14] [SceneManager] - Exiting scene -
+[16:08:14] 
+[16:08:14] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:14] [SceneManager] - Exiting scene -
+[16:08:14] 
+[16:08:14] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:15] [SceneManager] - Exiting scene -
+[16:08:15] 
+[16:08:15] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:15] [SceneManager] - Exiting scene -
+[16:08:15] 
+[16:08:15] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:15] [SceneManager] - Exiting scene -
+[16:08:15] 
+[16:08:15] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:16] [SceneManager] - Exiting scene -
+[16:08:16] 
+[16:08:16] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:16] [SceneManager] - Exiting scene -
+[16:08:16] 
+[16:08:16] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:16] [SceneManager] - Exiting scene -
+[16:08:16] 
+[16:08:16] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:17] [SceneManager] - Exiting scene -
+[16:08:17] 
+[16:08:17] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:17] [SceneManager] - Exiting scene -
+[16:08:17] 
+[16:08:17] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:17] [SceneManager] - Exiting scene -
+[16:08:17] 
+[16:08:17] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:18] [SceneManager] - Exiting scene -
+[16:08:18] 
+[16:08:18] [SceneManager] - Scene switched to: "GameLogic Example #4 - Path Finding"
+[16:08:35] [SceneManager] Closing scene manager

@@ -1,0 +1,106 @@
+
+Note:
+	If you want to use your existing - and far superior version - of nclgl from Graphics for Games
+	you are more than welcome. I tried to keep it is a vanilla as possible, though looking back
+	through the changelist now, I can only apologise if it makes portability a nightmare.
+
+	However, i've listed all the changes
+
+	- Important -
+	If you just want to change the graphics side of things, a default "renderer" class is located inside
+	ncltech under the name of "SceneRenderer". This is the graphics for games renderer that is used
+	for everything inside this module, it is based off the Scene Rendering tutorial and should be
+	alot easier to port over to your graphics than the mangled version of nclgl currently in use.
+
+
+
+CHANGE LIST
+----------------
+ 1. [NCLDebug]
+	New for GameTech
+
+ 1. [Camera] - Update() -OPTIONAL-
+	Split the Update function into UpdateMouse and UpdateKeyboard, and changed the control method
+	to a click and drag rotation scheme. This was purely a quality of life change to allow scene
+	mouse interaction, it is not a core nclgl change.
+
+ 2. [Matrix3]
+	New for GameTech
+
+ 3. [Quaternion] - ToMatrix()
+	ToMatrix() function changed to ToMatrix4() and also added corresponding Matrix3() functions
+		-> [MD5FileData.cpp - Line 353] Updated 'ToMatrix' call to 'ToMatrix4'
+		-> [MD5Anim.cpp - Line 394]		Updated 'ToMatrix' call to 'ToMatrix4'
+	This was originally computing the transpose of the rotation, so it's been flipped back to
+	returning the non-transposed rotation.
+
+ 4. [Quaternion] 
+	Added a bit more functionality to the Quaternion class as it was a bit sparse before.
+	Not sure if much of the new functionality is actually used in any of the tutorials though
+	so can probably just ignore them.
+
+ 5. [Vector3] - Normalise
+	Changed return type to "const Vector3&" and added a "return *this;" at the end.
+
+ 6. [Vector4] - ToVector4() 'const'
+	Added the const modifier to allow const vec4 variables to still call the method.
+
+ 7. [Matrix4]
+	Added Inverse() Function and operator[] accessors for quick access to the matrix values array.
+
+ 8. [TSingleton]
+	New for Game Tech
+	    -> Currently only used for GameTech classes, so can be moved to the ncltech library if it's
+		   easier.
+
+ 9. [Mesh] - Copy Constructor
+    New for GameTech
+
+ 10. SceneNode (Global)
+	Renamed to 'RenderNode'
+		-> Just did a find and replace on the whole nclgl project 
+	This naming change was made to distiguish between a graphics only node (old SceneNode) and a
+	generic game object which may have any number of components attached (including a graphics component).
+	Also, the way it is currently set up in GameTech is that we have individual scenes, which contain
+	a list of game object's (not SceneNodes), so I thought this change may help avoid any confusion.
+
+ 11. [RenderNode] - GetColour()
+	Renamed to 'GetColor()'
+		-> The amount of times colour and color have been made interchangable! Decided to end it now
+		   and just use one throughout the entire program!
+
+ 12. [RenderNode] - GetWorldTransform()
+	Changed return type to "const Matrix4&" to allow pointer referencing and easier memory copies
+
+ 13. [Vector4] - (+,-,+=,-=)
+	Added operators for adding and subtracting vector4 objects
+
+ 14. [Plane] - PointInPlane
+	Added PointInPlane function to plane class
+
+ 15. [PerfTimer]
+	New for GameTech
+
+ 16. [OGLRenderer]
+	Removed all debug draw references and functions, all the provided functionality can now be
+	done via NCLDebug.
+
+17. [Window]
+	Couple of additions, firstly a function to return the exact mouse position as the Mouse class
+	is all relative	to where the mouse initially starts. Secondly, the ability to change the mouse
+	cursor to a grabby hand. Both of these are used entirely for the purpose of picking and scene
+	interaction and nothing else. Though given the state of the Window class, it may just be easier
+	to copy over the whole thing.
+
+18. [Common.h] 
+	Changed folder defines to match new directory layout which is:
+		#define SHADERDIR	"../../Data/Shaders/"
+		#define MESHDIR		"../../Data/Meshes/"
+		#define TEXTUREDIR  "../../Data/Textures/"
+		#define SOUNDSDIR	"../../Data/Sounds/"
+
+	Added "uint" typedef for peace of mind.
+		typedef unsigned int uint;
+
+	Added SAFE_DELETE(x) define for peace of mind. Note this doesn't actually ensure it is safely deleted!
+		#define SAFE_DELETE(x) {if(x) { delete x; x = NULL; }}
